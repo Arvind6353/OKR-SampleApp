@@ -14,10 +14,10 @@ export default (props) => {
       <div className="modal-body">
         
         <p>Category - { props.modalData.category}</p>
-        <p>Metric Name - { props.modalData.metric_name}
+        <p>Metric Name - { props.modalData.metric_name}</p>
         <p>Metric Start - { props.modalData.metric_start}</p>
         <p>Metric Target - { props.modalData.metric_target}</p>
-        }</p>
+        
       </div>
       <div className="modal-footer">
         <button type="button" className="btn btn-default" data-dismiss="modal"
